@@ -1,0 +1,469 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "SF Pro Text";
+  font-size: 10px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.nav-background {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(51, 51, 51);
+}
+
+.nav-item {
+  display: inline-block;
+  color: rgb(214, 214, 214);
+  line-height: 45px;
+  text-align: center;
+  margin-right: 39px;
+  font-size: 8px;
+}
+
+.apple-icon {
+  width: 14px;
+  background-image: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__b5er5ngrzxqq_large.svg");
+}
+
+.search-icon {
+  width: 14px;
+  background-image: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_search_image__cbllq1gkias2_large.svg");
+}
+
+.buy-icon {
+  width: 13px;
+  background-image: url("https://www.apple.com/ac/globalnav/7/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__yzte50i47ciu_large.svg");
+}
+
+.iphone13pro-sticky-header {
+  width: 100%;
+  height: 48px;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  z-index: 9999;
+}
+
+.header-container {
+  width: 1000px;
+  height: 100%;
+}
+
+#header-left {
+  font-size: 23px;
+  line-height: 48px;
+  font-family: "SF Pro Display";
+  font-weight: 500;
+  float: left;
+}
+
+#header-right {
+  height: 100%;
+  width: 100px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#buy-button {
+  height: 25px;
+  width: 50px;
+  border-radius: 12.5px;
+  background-color: rgb(46, 115, 219);
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: white
+}
+
+.iphone13pro-img1 {
+  height: 400px;
+  background: url(https://www.apple.com/v/iphone-13-pro/d/images/overview/hero/hero_endframe__earisgmphfee_xlarge_2x.jpg)  no-repeat;
+  background-position: 50% 50%;
+  background-size: 150% 150%;
+}
+
+.sticky-img1 {
+  position: sticky;
+  top: 0;
+  clip-path: inset(0 0 0 0);
+}
+
+#iphone13pro-title {
+  height: 200px;
+  text-align: center;
+  line-height: 35vh;
+  font-family: "SF Pro Display";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+#Oh-so-pro {
+  height: 200px;
+  text-align: center;
+  font-family: "SF Pro Display";
+  font-size: 80px;
+  font-weight: 600;
+}
+
+.pro-intro {
+  width: 100%;
+  height: 1500px;
+  background: url(https://www.apple.com/v/iphone-13-pro/d/images/overview/manifesto/wallpaper_startframe__birg3d09nlle_large.jpg)  no-repeat top;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+#intro-container {
+  font-size: 66px;
+  font-weight: 700;
+  color: rgb(151, 181, 244, 0.4);
+  letter-spacing: -1.2px;
+  width: 800px;
+}
+
+#retina-display {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "SF Pro Display";
+  position: sticky;
+  top: 0;
+}
+
+#retina-display-container {
+  height: 700px;
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#pro-max-img-67 {
+  transform: translate(100px, 0);
+}
+
+#pro-img-61 {
+  transform: translate(-100px, 0);
+  z-index: 5;
+}
+
+#pro-max-display-name {
+  width: 200px;
+  height: 350px;
+  line-height: 680px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#pro-max-display-size {
+  height: 350px;
+  font-size: 50px;
+  font-weight: 900;
+  text-align: end;
+}
+
+#pro-display {
+  width: 200px;
+  transform: translate(-150px, 0);
+  z-index: 0;
+}
+
+#pro-display-name {
+  width: 200px;
+  height: 350px;
+  line-height: 680px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#pro-display-size {
+  height: 350px;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#pro-max-display {
+  transform: translate(150px, 0);
+}
+
+#scene4-container {
+  height: 4000px;
+}
+
+.scene4-panel-white {
+  height: 1000px;
+  width: 50%;
+  background-color: rgb(251, 251, 253);
+}
+
+.scene4-panel-black {
+  height: 1000px;
+  width: 50%;
+  background-color: black;
+}
+
+#next {
+  height: 1000px;
+  background-color: black;
+}
+
+#scene4-part1 {
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+#scene4-part2 {
+  height: 1000px;
+  display: flex;
+}
+
+#scene4-part3 {
+  height: 1000px;
+  display: flex;
+}
+
+#p1white-img {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+
+.scene4-char {
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 300px;
+}
+
+#part1-black {
+  display: flex;
+  justify-content: end;
+  align-items:flex-end;
+}
+
+#part1-black img {
+  height: 900px;
+  max-width: 150%;
+  transform: translate(300px);
+}
+
+#part2-black {
+  display: flex;
+  justify-content: center;
+  align-items:flex-end;
+}
+
+#p2white-img {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+#p2white-img img {
+  transform: translate(0, 100px);
+}
+
+#scene4-part2 {
+  position: sticky;
+  top: 0;
+}
+
+#scene4-part3 {
+  position: sticky;
+  top: 0;
+}
+
+#p3white-img {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+#p3white-img img {
+  transform: translate(0, 100px);
+}
+
+#part3-black {
+  display: flex;
+  justify-content: center;
+}
+
+#part3-black img {
+  height: 80%;
+  width: 80%;
+  transform: translate(0, 200px);
+}
+
+#scene4-part4 {
+  height: 1000px;
+  overflow: hidden;
+}
+
+#p4img {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+#p4img img {
+  height: 200%;
+}
+
+#scene5-container {
+  padding: 350px;
+}
+
+#scene5-pro-camera-system-intro {
+  height: 800px;
+  overflow: hidden;
+  font-family: "SF Pro Display";
+  font-size: 75px;
+  font-weight: 900;
+  letter-spacing: -1.2px;
+  line-height: 80px;
+  color: rgb(134, 134, 139);
+}
+
+.black-char {
+  color: rgb(29, 29, 31);
+}
+
+#scene5-img {
+  height: 300px;
+  position: relative;
+}
+
+#flower-photo {
+  height: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#macro-photography-intro-container, #video-intro-container {
+  height: 450px;
+  display: flex;
+  font-family: "SF Pro Display";
+  padding-top: 50px;
+}
+
+#video-intro-container {
+  height: 300px;
+}
+
+#whoa, #macro-video {
+  width: 50%;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 900;
+  padding-left: 200px;
+}
+
+#macro-video {
+  padding-top: 30px;
+  font-size: 40px;
+}
+
+#macro-photography-intro, #macro-video-intro {
+  width: 50%;
+  padding-right: 200px;
+  padding-left: 50px;
+}
+
+#macro-photography-header {
+  width: 400px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+#macro-photography-paragraph, #macro-video-paragraph {
+  width: 400px;
+  padding-top: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6e6e73;
+}
+
+#video {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video video {
+  height: 90%;
+}
+
+#true-depth-doc {
+  height: 600px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#true-depth-doc-left {
+  padding-top: 230px;
+  padding-right: 150px;
+  font-family: "SF Pro Display";
+  font-size: 35px;
+  font-weight: 800;
+  width: 350px;
+}
+
+#true-depth-doc-right {
+  width: 400px;
+  padding-top: 230px;
+  font-family: "SF Pro Display";
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(134, 134, 139);
+}
+
+#selfie {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+#selfie-img {
+  transform: translate(800px, 600px) scale(2, 2);
+  z-index: 50;
+}
+
+#scene7-container {
+  height: 2000px;
+  overflow: hidden;
+}
+
+#no-wonder-banner {
+  transform: translate(350px, -800px);
+  font-family: "SF Pro Display";
+  font-size: 100px;
+  line-height: 110px;
+  font-weight: 900;
+  width: 700px;
+  z-index: 1;
+  opacity: 0;
+}
